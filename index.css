@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("train.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(36, 36, 36);
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.951);
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgba(219, 7, 7, 0.778);
+}
+
+#save-btn {
+  background: rgba(10, 227, 10, 0.773);
+}
+#save-el {
+  margin-top: 10px;
+  font-size: large;
+}
+
+.card {
+  min-width: 350px;
+  padding: 150px 20px;
+  background-color: hsla(213, 85%, 70%, 0.267);
+  border-radius: 10px;
+  box-shadow: 0 20px 20px 10px rgba(0, 0, 0, 0.214);
+}
